@@ -4,88 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DigiPaws</title>
-    <style>
-        body {
-            background-color: #121212;
-            color: #ffffff;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 20px;
-        }
-        .intro {
-            position: relative;
-            height: 80vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 20px;
-        }
-        .profile-pic {
-            border-radius: 50%;
-            width: 100px;
-            height: 100px;
-            margin: 20px auto;
-        }
-        .button {
-            background-color: #6750A4;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            text-decoration: none;
-            font-size: 16px;
-            display: inline-block;
-            margin: 20px 0;
-        }
-        .footer {
-            margin-top: 50px;
-            font-size: 14px;
-            color: #bbbbbb;
-        }
-           .additional-content {
-            color: #ffffff;
-            display: flex;
-            flex-direction: column;
-            padding: 20px;
-        }
-        .card {
-            background-color: #222222;
-            border-radius: 10px;
-            padding: 30px;
-            margin: 20px auto;
-            max-width: 400px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            justify-content: center;
-            align-items: center;
-        }
-       
-        .card img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-        .card h2 {
-            margin: 20px 0;
-        }
-           .social-links {
-            margin: 8px 0;
-        }
-        .social-links a {
-            color: white;
-            margin: 0 10px;
-            text-decoration: none;
-            font-size: 24px;
-        }
-        .footer {
-            margin-top: 50px;
-            font-size: 14px;
-            color: #bbbbbb;
-        }
-    </style>
+
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
         
 </head>
 <body>
@@ -116,12 +40,15 @@
             <p>🤡 Easy Mode: Display gentle reminders every few mins</p>
             <p>🔥 Adventure Mode: Perform productive tasks to use social media</p>
             <p>🤯 Hard Mode: no bs, only straight back presses without any warning</p>
+            <p><a href="about/modes">Learn more</a></p>
+            
             </div>
             
-             <div class="card">
-            <img src="illustrations/camping.svg" alt="Illustration">
+           <div class="card">
+            <img src="illustrations/camping.svg" alt="Illustration" id="anime">
             <h2>🚀 Quests</h2>
             <p>On Adventure Mode, users earn ✨Aura coins✨ by performing quests. These quests are productive actions like a quick 1 km run or workouts such as squats or pushups.</p>
+            <p><a href="#">Learn more</a></p>
             </div>
             
              <div class="card">
@@ -134,6 +61,7 @@
             <img src="illustrations/open.svg" alt="Illustration">
             <h2>🤯 Open Api</h2>
             <p>Our app has an open API, so other developers can create even more ways to earn Aura coins! Imagine earning rewards by using educational apps or fitness trackers - the possibilities are endless!</p>
+            <p><a href="#">Learn more</a></p>
               </div>
               
               <div class="card">
